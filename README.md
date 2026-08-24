@@ -47,9 +47,9 @@
 `Claude Agent SDK` `MCP` `TypeScript` `Node.js` `多人协作运行时`
 
 <div align="center">
-  <img src="assets/crewmind-shell.jpg" alt="crewmind 应用界面截图" width="88%" />
+  <img src="assets/crewmind-shell.jpg" alt="crewmind 视觉基调 — 深色主题氛围渲染" width="88%" />
   <br/>
-  <sub>crewmind 工作台实拍 · 团队群聊里的服务器端 agent 会话</sub>
+  <sub>crewmind 视觉基调（设计素材，非产品截图）</sub>
 </div>
 
 <br/>
