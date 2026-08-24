@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/banner.svg" alt="Calvin Du — 杜文韬" width="100%" />
+  <img src="assets/banner.svg" alt="Calvin Du 杜文韬 — AI Agent 工程 × 数据分析 × 合规风控，NUS ISE，building crewmind（动态点阵横幅）" width="100%" />
 </div>
 
 <br/>
@@ -12,23 +12,45 @@
 
 </div>
 
-## 关于我 / About
+## ▚ 关于我 / About
 
-杜文韬（**Calvin Du**）—— AI Agent 工程 × 数据分析 × 合规风控交叉背景。新加坡国立大学（NUS）工业与系统工程硕士在读（运筹与数据方向），南京大学商学院财务管理学士（GPA 3.79/4.00）。做过合规科技、审计自动化、商业化风控、GRC，也独立设计并维护一个自托管的多人协作 Agent 平台。习惯把复杂系统拆成边界清楚的小模块，代码和文书都按这个标准写。
+<div align="center">
+  <img src="assets/whoami.svg" alt="terminal whoami: Calvin Du 杜文韬 · AI Agent 工程 × 数据分析 × 合规风控 · NUS ISE · Building Crewmind" width="100%" />
+</div>
 
-*Bridging AI agent engineering, data analytics, and compliance/risk. NUS ISE (Operations Research & Analytics); BA in Finance, Nanjing University. Built compliance tooling, audit automation, and risk systems across law, telecom, and tech — now building Crewmind solo.*
+<div align="center"><sub>Calvin Du · AI Agent 工程 × 数据分析 × 合规风控 · NUS ISE · Building Crewmind</sub></div>
+
+<br/>
+
+杜文韬（**Calvin Du**）—— AI Agent 工程 × 数据分析 × 合规风控交叉背景。新加坡国立大学（NUS）工业与系统工程硕士在读（运筹与数据方向），南京大学商学院财务管理学士（GPA 3.79/4.00）。做过合规科技、审计自动化、商业化风控、GRC，也独立设计并维护一个自托管的多人协作 Agent 平台。
+
+*Bridging AI agent engineering, data analytics, and compliance/risk. NUS ISE (Operations Research & Analytics); BA in Finance, Nanjing University. Now building Crewmind solo.*
+
+<div align="center">
+
+| **50+** | **287+** | **8h → 2h** | **12+** |
+|:---:|:---:|:---:|:---:|
+| 工具 / Skill / 插件交付 | commits · crewmind | 合规月报自动化耗时 | 法律业务场景覆盖 |
+
+</div>
 
 ---
 
-## 精选项目 / Featured Work
+## ▚ 精选项目 / Featured Work
 
-### 🧩 [crewmind](https://github.com/1518213712-eng/crewmind)
+#### 🧩 [crewmind](https://github.com/1518213712-eng/crewmind)
 
 自托管的多人协作 AI Agent 平台 —— 团队在类 IM 群聊里共同指挥服务器端 agent，而不是各自单开一个聊天窗口。多模型运行时（Claude Agent SDK / Codex / DeepSeek harness 桥接）、团队空间与额度治理、文档工作区，Web / PWA / macOS 三端覆盖。独立设计与开发，287+ commits。
 
 *A self-hosted, multiplayer AI agent workbench — teams command server-side agents together inside a group chat, instead of running solo chat windows. Multi-model runtime, team/quota governance, a document workspace, across Web / PWA / macOS. Solo project, 287+ commits.*
 
 `Claude Agent SDK` `MCP` `TypeScript` `Node.js` `多人协作运行时`
+
+<div align="center">
+  <img src="assets/crewmind-shell.jpg" alt="crewmind 应用界面截图" width="88%" />
+  <br/>
+  <sub>crewmind 工作台实拍 · 团队群聊里的服务器端 agent 会话</sub>
+</div>
 
 <br/>
 
@@ -42,7 +64,7 @@
 
 ---
 
-## 技术栈 / Stack
+## ▚ 技术栈 / Stack
 
 **Agent / AI**
 
@@ -76,7 +98,7 @@
 
 ---
 
-## 经历一览 / Experience
+## ▚ 经历一览 / Experience
 
 按时间倒序，仅列关键产出，完整信息见简历。
 
@@ -90,6 +112,10 @@
 **教育**：新加坡国立大学（NUS）工业与系统工程硕士，运筹与数据方向（2026.09–2027.05）· 南京大学商学院财务管理学士，GPA 3.79/4.00，人民奖学金 / NUS-CDE 奖学金
 
 ---
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=1518213712-eng&show_icons=true&bg_color=050506&title_color=a78bfa&text_color=faf7f0&icon_color=cfa6b6&hide_border=true" alt="Calvin's GitHub stats" />
+</div>
 
 <div align="center">
   <img src="assets/divider.jpg" alt="" width="100%" />

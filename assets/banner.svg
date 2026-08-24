@@ -14,9 +14,6 @@
       <stop offset="0%" stop-color="#faf7f0"/>
       <stop offset="100%" stop-color="#e6def2"/>
     </linearGradient>
-    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
-      <circle cx="1.1" cy="1.1" r="1.1" fill="#7c3aed" fill-opacity="0.35"/>
-    </pattern>
     <linearGradient id="fadeRight" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#050506" stop-opacity="0"/>
       <stop offset="100%" stop-color="#050506" stop-opacity="1"/>
@@ -25,13 +22,147 @@
       <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="noise"/>
       <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
     </filter>
+    <filter id="softBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+    <clipPath id="rainClip">
+      <rect x="550" y="0" width="722" height="300"/>
+    </clipPath>
   </defs>
 
   <rect width="1280" height="300" fill="#050506"/>
   <rect width="1280" height="300" fill="url(#glow1)"/>
   <rect width="1280" height="300" fill="url(#glow2)"/>
-  <rect x="560" width="720" height="300" fill="url(#dots)"/>
-  <rect x="560" width="720" height="300" fill="url(#fadeRight)" opacity="0.55"/>
+
+  <!-- dot-matrix rain, clipped to right-hand zone -->
+  <g clip-path="url(#rainClip)" opacity="0.8">
+    <g transform="translate(570,-40)">
+      <circle cx="0" cy="0" r="1.7" fill="#a78bfa" fill-opacity="0.95"/><circle cx="0" cy="9" r="1.7" fill="#a78bfa" fill-opacity="0.62"/><circle cx="0" cy="18" r="1.7" fill="#a78bfa" fill-opacity="0.36"/><circle cx="0" cy="27" r="1.7" fill="#a78bfa" fill-opacity="0.16"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="570,-40;570,340" dur="5.05s" begin="-0.13s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(598,-40)">
+      <circle cx="0" cy="0" r="1.7" fill="#7c3aed" fill-opacity="0.95"/><circle cx="0" cy="9" r="1.7" fill="#7c3aed" fill-opacity="0.62"/><circle cx="0" cy="18" r="1.7" fill="#7c3aed" fill-opacity="0.36"/><circle cx="0" cy="27" r="1.7" fill="#7c3aed" fill-opacity="0.16"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="598,-40;598,340" dur="3.78s" begin="-0.53s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(626,-40)">
+      <circle cx="0" cy="0" r="1.7" fill="#7c3aed" fill-opacity="0.95"/><circle cx="0" cy="9" r="1.7" fill="#7c3aed" fill-opacity="0.62"/><circle cx="0" cy="18" r="1.7" fill="#7c3aed" fill-opacity="0.36"/><circle cx="0" cy="27" r="1.7" fill="#7c3aed" fill-opacity="0.16"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="626,-40;626,340" dur="5.17s" begin="-4.61s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(654,-40)">
+      <circle cx="0" cy="0" r="1.7" fill="#7c3aed" fill-opacity="0.95"/><circle cx="0" cy="9" r="1.7" fill="#7c3aed" fill-opacity="0.62"/><circle cx="0" cy="18" r="1.7" fill="#7c3aed" fill-opacity="0.36"/><circle cx="0" cy="27" r="1.7" fill="#7c3aed" fill-opacity="0.16"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="654,-40;654,340" dur="4.89s" begin="-0.16s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(682,-40)">
+      <circle cx="0" cy="0" r="1.7" fill="#7c3aed" fill-opacity="0.95"/><circle cx="0" cy="9" r="1.7" fill="#7c3aed" fill-opacity="0.62"/><circle cx="0" cy="18" r="1.7" fill="#7c3aed" fill-opacity="0.36"/><circle cx="0" cy="27" r="1.7" fill="#7c3aed" fill-opacity="0.16"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="682,-40;682,340" dur="3.7s" begin="-1.87s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(710,-40)">
+      <circle cx="0" cy="0" r="1.7" fill="#cfa6b6" fill-opacity="0.95"/><circle cx="0" cy="9" r="1.7" fill="#cfa6b6" fill-opacity="0.62"/><circle cx="0" cy="18" r="1.7" fill="#cfa6b6" fill-opacity="0.36"/><circle cx="0" cy="27" r="1.7" fill="#cfa6b6" fill-opacity="0.16"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="710,-40;710,340" dur="4.8s" begin="-3.44s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(738,-40)">
+      <circle cx="0" cy="0" r="1.7" fill="#7c3aed" fill-opacity="0.95"/><circle cx="0" cy="9" r="1.7" fill="#7c3aed" fill-opacity="0.62"/><circle cx="0" cy="18" r="1.7" fill="#7c3aed" fill-opacity="0.36"/><circle cx="0" cy="27" r="1.7" fill="#7c3aed" fill-opacity="0.16"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="738,-40;738,340" dur="3.71s" begin="-2.19s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(766,-40)">
+      <circle cx="0" cy="0" r="1.7" fill="#cfa6b6" fill-opacity="0.95"/><circle cx="0" cy="9" r="1.7" fill="#cfa6b6" fill-opacity="0.62"/><circle cx="0" cy="18" r="1.7" fill="#cfa6b6" fill-opacity="0.36"/><circle cx="0" cy="27" r="1.7" fill="#cfa6b6" fill-opacity="0.16"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="766,-40;766,340" dur="5.43s" begin="-0.87s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(794,-40)">
+      <circle cx="0" cy="0" r="1.7" fill="#a78bfa" fill-opacity="0.95"/><circle cx="0" cy="9" r="1.7" fill="#a78bfa" fill-opacity="0.62"/><circle cx="0" cy="18" r="1.7" fill="#a78bfa" fill-opacity="0.36"/><circle cx="0" cy="27" r="1.7" fill="#a78bfa" fill-opacity="0.16"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="794,-40;794,340" dur="4.09s" begin="-0.64s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(822,-40)">
+      <circle cx="0" cy="0" r="1.7" fill="#a78bfa" fill-opacity="0.95"/><circle cx="0" cy="9" r="1.7" fill="#a78bfa" fill-opacity="0.62"/><circle cx="0" cy="18" r="1.7" fill="#a78bfa" fill-opacity="0.36"/><circle cx="0" cy="27" r="1.7" fill="#a78bfa" fill-opacity="0.16"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="822,-40;822,340" dur="3.33s" begin="-1.27s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(850,-40)">
+      <circle cx="0" cy="0" r="1.7" fill="#7c3aed" fill-opacity="0.95"/><circle cx="0" cy="9" r="1.7" fill="#7c3aed" fill-opacity="0.62"/><circle cx="0" cy="18" r="1.7" fill="#7c3aed" fill-opacity="0.36"/><circle cx="0" cy="27" r="1.7" fill="#7c3aed" fill-opacity="0.16"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="850,-40;850,340" dur="5.71s" begin="-3.45s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(878,-40)">
+      <circle cx="0" cy="0" r="1.7" fill="#cfa6b6" fill-opacity="0.95"/><circle cx="0" cy="9" r="1.7" fill="#cfa6b6" fill-opacity="0.62"/><circle cx="0" cy="18" r="1.7" fill="#cfa6b6" fill-opacity="0.36"/><circle cx="0" cy="27" r="1.7" fill="#cfa6b6" fill-opacity="0.16"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="878,-40;878,340" dur="5.34s" begin="-2.86s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(906,-40)">
+      <circle cx="0" cy="0" r="1.7" fill="#a78bfa" fill-opacity="0.95"/><circle cx="0" cy="9" r="1.7" fill="#a78bfa" fill-opacity="0.62"/><circle cx="0" cy="18" r="1.7" fill="#a78bfa" fill-opacity="0.36"/><circle cx="0" cy="27" r="1.7" fill="#a78bfa" fill-opacity="0.16"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="906,-40;906,340" dur="3.25s" begin="-0.95s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(934,-40)">
+      <circle cx="0" cy="0" r="1.7" fill="#7c3aed" fill-opacity="0.95"/><circle cx="0" cy="9" r="1.7" fill="#7c3aed" fill-opacity="0.62"/><circle cx="0" cy="18" r="1.7" fill="#7c3aed" fill-opacity="0.36"/><circle cx="0" cy="27" r="1.7" fill="#7c3aed" fill-opacity="0.16"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="934,-40;934,340" dur="4.85s" begin="-3.42s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(962,-40)">
+      <circle cx="0" cy="0" r="1.7" fill="#7c3aed" fill-opacity="0.95"/><circle cx="0" cy="9" r="1.7" fill="#7c3aed" fill-opacity="0.62"/><circle cx="0" cy="18" r="1.7" fill="#7c3aed" fill-opacity="0.36"/><circle cx="0" cy="27" r="1.7" fill="#7c3aed" fill-opacity="0.16"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="962,-40;962,340" dur="5.12s" begin="-3.96s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(990,-40)">
+      <circle cx="0" cy="0" r="1.7" fill="#cfa6b6" fill-opacity="0.95"/><circle cx="0" cy="9" r="1.7" fill="#cfa6b6" fill-opacity="0.62"/><circle cx="0" cy="18" r="1.7" fill="#cfa6b6" fill-opacity="0.36"/><circle cx="0" cy="27" r="1.7" fill="#cfa6b6" fill-opacity="0.16"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="990,-40;990,340" dur="5.74s" begin="-4.97s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(1018,-40)">
+      <circle cx="0" cy="0" r="1.7" fill="#a78bfa" fill-opacity="0.95"/><circle cx="0" cy="9" r="1.7" fill="#a78bfa" fill-opacity="0.62"/><circle cx="0" cy="18" r="1.7" fill="#a78bfa" fill-opacity="0.36"/><circle cx="0" cy="27" r="1.7" fill="#a78bfa" fill-opacity="0.16"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="1018,-40;1018,340" dur="3.89s" begin="-2.47s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(1046,-40)">
+      <circle cx="0" cy="0" r="1.7" fill="#a78bfa" fill-opacity="0.95"/><circle cx="0" cy="9" r="1.7" fill="#a78bfa" fill-opacity="0.62"/><circle cx="0" cy="18" r="1.7" fill="#a78bfa" fill-opacity="0.36"/><circle cx="0" cy="27" r="1.7" fill="#a78bfa" fill-opacity="0.16"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="1046,-40;1046,340" dur="3.52s" begin="-1.25s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(1074,-40)">
+      <circle cx="0" cy="0" r="1.7" fill="#7c3aed" fill-opacity="0.95"/><circle cx="0" cy="9" r="1.7" fill="#7c3aed" fill-opacity="0.62"/><circle cx="0" cy="18" r="1.7" fill="#7c3aed" fill-opacity="0.36"/><circle cx="0" cy="27" r="1.7" fill="#7c3aed" fill-opacity="0.16"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="1074,-40;1074,340" dur="5.25s" begin="-3.59s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(1102,-40)">
+      <circle cx="0" cy="0" r="1.7" fill="#a78bfa" fill-opacity="0.95"/><circle cx="0" cy="9" r="1.7" fill="#a78bfa" fill-opacity="0.62"/><circle cx="0" cy="18" r="1.7" fill="#a78bfa" fill-opacity="0.36"/><circle cx="0" cy="27" r="1.7" fill="#a78bfa" fill-opacity="0.16"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="1102,-40;1102,340" dur="4.95s" begin="-0.85s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(1130,-40)">
+      <circle cx="0" cy="0" r="1.7" fill="#a78bfa" fill-opacity="0.95"/><circle cx="0" cy="9" r="1.7" fill="#a78bfa" fill-opacity="0.62"/><circle cx="0" cy="18" r="1.7" fill="#a78bfa" fill-opacity="0.36"/><circle cx="0" cy="27" r="1.7" fill="#a78bfa" fill-opacity="0.16"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="1130,-40;1130,340" dur="3.52s" begin="-1.34s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(1158,-40)">
+      <circle cx="0" cy="0" r="1.7" fill="#7c3aed" fill-opacity="0.95"/><circle cx="0" cy="9" r="1.7" fill="#7c3aed" fill-opacity="0.62"/><circle cx="0" cy="18" r="1.7" fill="#7c3aed" fill-opacity="0.36"/><circle cx="0" cy="27" r="1.7" fill="#7c3aed" fill-opacity="0.16"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="1158,-40;1158,340" dur="5.19s" begin="-4.37s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(1186,-40)">
+      <circle cx="0" cy="0" r="1.7" fill="#a78bfa" fill-opacity="0.95"/><circle cx="0" cy="9" r="1.7" fill="#a78bfa" fill-opacity="0.62"/><circle cx="0" cy="18" r="1.7" fill="#a78bfa" fill-opacity="0.36"/><circle cx="0" cy="27" r="1.7" fill="#a78bfa" fill-opacity="0.16"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="1186,-40;1186,340" dur="3.73s" begin="-0.12s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(1214,-40)">
+      <circle cx="0" cy="0" r="1.7" fill="#a78bfa" fill-opacity="0.95"/><circle cx="0" cy="9" r="1.7" fill="#a78bfa" fill-opacity="0.62"/><circle cx="0" cy="18" r="1.7" fill="#a78bfa" fill-opacity="0.36"/><circle cx="0" cy="27" r="1.7" fill="#a78bfa" fill-opacity="0.16"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="1214,-40;1214,340" dur="4.28s" begin="-0.28s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(1242,-40)">
+      <circle cx="0" cy="0" r="1.7" fill="#cfa6b6" fill-opacity="0.95"/><circle cx="0" cy="9" r="1.7" fill="#cfa6b6" fill-opacity="0.62"/><circle cx="0" cy="18" r="1.7" fill="#cfa6b6" fill-opacity="0.36"/><circle cx="0" cy="27" r="1.7" fill="#cfa6b6" fill-opacity="0.16"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="1242,-40;1242,340" dur="3.68s" begin="-1.84s" repeatCount="indefinite"/>
+    </g>
+  </g>
+  <rect x="560" width="720" height="300" fill="url(#fadeRight)" opacity="0.4"/>
 
   <!-- thin instrument-panel frame -->
   <rect x="1" y="1" width="1278" height="298" fill="none" stroke="#7c3aed" stroke-opacity="0.28" stroke-width="1"/>
@@ -45,6 +176,11 @@
     <path d="M1256 280 L1256 264 M1256 280 L1240 280"/>
   </g>
 
+  <!-- breathing glow behind title -->
+  <ellipse cx="330" cy="150" rx="280" ry="90" fill="#7c3aed" filter="url(#softBlur)">
+    <animate attributeName="opacity" values="0.18;0.42;0.18" dur="5.5s" repeatCount="indefinite"/>
+  </ellipse>
+
   <text x="80" y="112" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="15" letter-spacing="6" fill="#cfa6b6" fill-opacity="0.85">CALVIN DU · AI AGENT ENGINEER</text>
 
   <text x="78" y="176" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="700" fill="url(#titleGrad)">Calvin Du <tspan fill="#a78bfa" font-weight="600" font-size="46">杜文韬</tspan></text>
@@ -52,6 +188,11 @@
   <text x="80" y="216" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-size="17" fill="#faf7f0" fill-opacity="0.72">AI Agent 工程 · 数据分析 · 合规风控 &#8212; NUS ISE</text>
 
   <text x="80" y="252" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-size="13" letter-spacing="1" fill="#7c3aed" fill-opacity="0.9">building crewmind — self-hosted multi-agent workbench</text>
+
+  <!-- blinking terminal cursor -->
+  <rect x="1224" y="238" width="11" height="18" fill="#a78bfa">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
 
   <rect width="1280" height="300" filter="url(#grain)" opacity="0.5"/>
 </svg>
