@@ -1,128 +1,145 @@
-<div align="center">
-  <img src="assets/banner.svg" alt="Calvin Du 杜文韬 — AI Agent 工程 × 数据分析 × 合规风控，NUS ISE，building crewmind（动态点阵横幅）" width="100%" />
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/hero.svg">
+  <img src="assets/light/hero.svg" alt="杜文韬 Calvin Du：我写 agent，也审 agent。AI Agent 工程 × 数据分析 × 合规风控。现在在 ShopeePay 做 Agent 产品，NUS ISE 在读。" width="100%">
+</picture>
 
-<br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/intro.svg">
+  <img src="assets/light/intro.svg" alt="学的是账，看的是规则，写的是代码。从金陵到狮城，从底稿到模型，想做的始终是一件事——让繁琐的流程，自己走完该走的路。" width="100%">
+</picture>
 
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/h01.svg">
+  <img src="assets/light/h01.svg" alt="01 所为：三件事，一以贯之。" width="100%">
+</picture>
 
-[![NUS](https://img.shields.io/badge/NUS-ISE_运筹与数据-7c3aed?style=flat-square&labelColor=050506)](#)
-[![Location](https://img.shields.io/badge/Singapore-📍-7c3aed?style=flat-square&labelColor=050506)](#)
-[![Building](https://img.shields.io/badge/building-Crewmind-a78bfa?style=flat-square&labelColor=050506)](https://github.com/1518213712-eng/crewmind)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/three.svg">
+  <img src="assets/light/three.svg" alt="Agent 工程：让模型各司其职，让人只管拍板。；数据分析：从噪声里找规律，从规律里找答案。；合规风控：先读懂规则，再教会机器。" width="100%">
+</picture>
 
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/h02.svg">
+  <img src="assets/light/h02.svg" alt="02 在造：与其一人对一窗，不如众人共一群。" width="100%">
+</picture>
 
-## ▚ 关于我 / About
+<a href="https://github.com/1518213712-eng/crewmind">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/crewmind.svg">
+  <img src="assets/light/crewmind.svg" alt="crewmind：让人和 agent，在同一个房间里共事。独立开发，仍在生长。" width="100%">
+</picture>
+</a>
 
-<div align="center">
-  <img src="assets/whoami.svg" alt="terminal whoami: Calvin Du 杜文韬 · AI Agent 工程 × 数据分析 × 合规风控 · NUS ISE · Building Crewmind" width="100%" />
-</div>
+<a href="https://github.com/1518213712-eng/crewmind"><img src="assets/crewmind-landing.jpg" alt="crewmind 落地页截图" width="100%"></a>
 
-<div align="center"><sub>Calvin Du · AI Agent 工程 × 数据分析 × 合规风控 · NUS ISE · Building Crewmind</sub></div>
+<a href="https://crew-mind.xyz">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/crewmind-foot.svg">
+  <img src="assets/light/crewmind-foot.svg" alt="crew-mind.xyz" width="100%">
+</picture>
+</a>
 
-<br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/h03.svg">
+  <img src="assets/light/h03.svg" alt="03 旧作：代码会旧，问题常新。" width="100%">
+</picture>
 
-杜文韬（**Calvin Du**）—— AI Agent 工程 × 数据分析 × 合规风控交叉背景。新加坡国立大学（NUS）工业与系统工程硕士在读（运筹与数据方向），南京大学商学院财务管理学士（GPA 3.79/4.00）。做过合规科技、审计自动化、商业化风控、GRC，也独立设计并维护一个自托管的多人协作 Agent 平台。
+<a href="https://github.com/1518213712-eng/mingwen-law-workbench">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/work1.svg">
+  <img src="assets/light/work1.svg" alt="律所工作台：新旧两稿，逐条对齐；一字之差，无处藏身。" width="100%">
+</picture>
+</a>
 
-*Bridging AI agent engineering, data analytics, and compliance/risk. NUS ISE (Operations Research & Analytics); BA in Finance, Nanjing University. Now building Crewmind solo.*
+<a href="https://1518213712-eng.github.io/calvin-auto-compliance-briefing/">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/work2.svg">
+  <img src="assets/light/work2.svg" alt="汽车数据合规快讯：天下合规事，一月一成书。" width="100%">
+</picture>
+</a>
 
-<div align="center">
+<a href="https://github.com/1518213712-eng/legal-ai-presentation">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/work3.svg">
+  <img src="assets/light/work3.svg" alt="AI 落地演示：把 AI，讲给最懂规则的人听。" width="100%">
+</picture>
+</a>
 
-| **50+** | **287+** | **8h → 2h** | **12+** |
-|:---:|:---:|:---:|:---:|
-| 工具 / Skill / 插件交付 | commits · crewmind | 合规月报自动化耗时 | 法律业务场景覆盖 |
+<a href="https://github.com/1518213712-eng/empty-house-letter">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/work4.svg">
+  <img src="assets/light/work4.svg" alt="空屋来信：一座空屋，几封旧信，一个没讲完的故事。" width="100%">
+</picture>
+</a>
 
-</div>
+<a href="https://github.com/1518213712-eng/Admission-show">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/work5.svg">
+  <img src="assets/light/work5.svg" alt="AbroadSync：把申请季的兵荒马乱，排成一张时间表。" width="100%">
+</picture>
+</a>
 
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/h04.svg">
+  <img src="assets/light/h04.svg" alt="04 来路" width="100%">
+</picture>
 
-## ▚ 精选项目 / Featured Work
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/path.svg">
+  <img src="assets/light/path.svg" alt="先读懂账本，再读懂规则；先学会审计，再学会造物。" width="100%">
+</picture>
 
-#### 🧩 [crewmind](https://github.com/1518213712-eng/crewmind)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/exp1.svg">
+  <img src="assets/light/exp1.svg" alt="ShopeePay，Agent 产品助理 · 新加坡 · 在职：左手钱包，右手模型。" width="100%">
+</picture>
 
-自托管的多人协作 AI Agent 平台 —— 团队在类 IM 群聊里共同指挥服务器端 agent，而不是各自单开一个聊天窗口。多模型运行时（Claude Agent SDK / Codex / DeepSeek harness 桥接）、团队空间与额度治理、文档工作区，Web / PWA / macOS 三端覆盖。独立设计与开发，287+ commits。
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/exp2.svg">
+  <img src="assets/light/exp2.svg" alt="大成 Dentons，数字化转型实习 · 杭州：快讯交机器起草，课堂为律师开讲。" width="100%">
+</picture>
 
-*A self-hosted, multiplayer AI agent workbench — teams command server-side agents together inside a group chat, instead of running solo chat windows. Multi-model runtime, team/quota governance, a document workspace, across Web / PWA / macOS. Solo project, 287+ commits.*
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/exp3.svg">
+  <img src="assets/light/exp3.svg" alt="中国电信，审计数据分析实习 · 北京：让纸面凭证开口，令风控规则落库。" width="100%">
+</picture>
 
-`Claude Agent SDK` `MCP` `TypeScript` `Node.js` `多人协作运行时`
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/exp4.svg">
+  <img src="assets/light/exp4.svg" alt="字节跳动，商业化风控实习：增长处处求快，风控步步求稳。" width="100%">
+</picture>
 
-<div align="center">
-  <img src="assets/crewmind-landing.jpg" alt="crewmind 产品落地页 — AI 同事，在你自己的服务器上" width="88%" />
-  <br/>
-  <sub>crewmind 产品落地页实拍 · crew-mind.xyz</sub>
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/exp5.svg">
+  <img src="assets/light/exp5.svg" alt="特斯拉，GRC 实习：核对让给脚本，证据串成长链。" width="100%">
+</picture>
 
-<br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/exp6.svg">
+  <img src="assets/light/exp6.svg" alt="安永 EY，审计实习：底稿里学怀疑，勾稽中学严谨。" width="100%">
+</picture>
 
-| 项目 | 说明 |
-|---|---|
-| 🏛️ [**mingwen-law-workbench**](https://github.com/1518213712-eng/mingwen-law-workbench) | 律所数字化工作台 —— TypeScript + Cloudflare Workers |
-| 🚗 [**calvin-auto-compliance-briefing**](https://github.com/1518213712-eng/calvin-auto-compliance-briefing) | 汽车数据合规快讯生成工作台，与 Dentons 实习产物同方向 |
-| ⚖️ [**legal-ai-presentation**](https://github.com/1518213712-eng/legal-ai-presentation) | 法律 AI 培训 / 演示材料 |
-| 🏚️ [**empty-house-letter**](https://github.com/1518213712-eng/empty-house-letter) | 《空屋来信》—— 原生 JS 视觉小说解谜游戏（业余作品） |
-| 🎓 [**Admission-show**](https://github.com/1518213712-eng/Admission-show) | AbroadSync 留学申请展示平台 |
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/h05.svg">
+  <img src="assets/light/h05.svg" alt="05 求学：金陵学账，狮城学算。" width="100%">
+</picture>
 
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/edu.svg">
+  <img src="assets/light/edu.svg" alt="新加坡国立大学，工业与系统工程硕士，运筹与数据方向，NUS-CDE 奖学金；南京大学商学院，财务管理学士，人民奖学金。" width="100%">
+</picture>
 
-## ▚ 技术栈 / Stack
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/h06.svg">
+  <img src="assets/light/h06.svg" alt="06 利器：工欲善其事，必先利其器。" width="100%">
+</picture>
 
-**Agent / AI**
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/tools.svg">
+  <img src="assets/light/tools.svg" alt="Agent / AI：Claude Agent SDK · MCP · RAG（pgvector · bge-m3）· Prompt / Skill 工程；数据：Python · Pandas · scikit-learn · XGBoost · SQL · Tableau；工程：TypeScript · Node.js · FastAPI · Cloudflare Workers · Linux 部署；合规与语言：GDPR · PIPL · SOX ITGC · IELTS 7" width="100%">
+</picture>
 
-![Claude Agent SDK](https://img.shields.io/badge/Claude_Agent_SDK-7c3aed?style=flat-square&labelColor=050506)
-![MCP](https://img.shields.io/badge/MCP-7c3aed?style=flat-square&labelColor=050506)
-![RAG](https://img.shields.io/badge/RAG_·_pgvector_·_bge--m3-7c3aed?style=flat-square&labelColor=050506)
-![Prompt Engineering](https://img.shields.io/badge/Prompt_/_Skill_工程-7c3aed?style=flat-square&labelColor=050506)
-
-**数据 / Data**
-
-![Python](https://img.shields.io/badge/Python-7c3aed?style=flat-square&logo=python&logoColor=faf7f0&labelColor=050506)
-![Pandas](https://img.shields.io/badge/Pandas-7c3aed?style=flat-square&logo=pandas&logoColor=faf7f0&labelColor=050506)
-![scikit--learn](https://img.shields.io/badge/scikit--learn-7c3aed?style=flat-square&logo=scikitlearn&logoColor=faf7f0&labelColor=050506)
-![XGBoost](https://img.shields.io/badge/XGBoost-7c3aed?style=flat-square&labelColor=050506)
-![SQL](https://img.shields.io/badge/SQL-7c3aed?style=flat-square&labelColor=050506)
-![Tableau](https://img.shields.io/badge/Tableau-7c3aed?style=flat-square&logo=tableau&logoColor=faf7f0&labelColor=050506)
-
-**工程 / Engineering**
-
-![TypeScript](https://img.shields.io/badge/TypeScript-7c3aed?style=flat-square&logo=typescript&logoColor=faf7f0&labelColor=050506)
-![Node.js](https://img.shields.io/badge/Node.js-7c3aed?style=flat-square&logo=nodedotjs&logoColor=faf7f0&labelColor=050506)
-![FastAPI](https://img.shields.io/badge/FastAPI-7c3aed?style=flat-square&logo=fastapi&logoColor=faf7f0&labelColor=050506)
-![Linux](https://img.shields.io/badge/Linux_部署-7c3aed?style=flat-square&logo=linux&logoColor=faf7f0&labelColor=050506)
-
-**合规 / Compliance**
-
-![GDPR](https://img.shields.io/badge/GDPR-a78bfa?style=flat-square&labelColor=050506)
-![PIPL](https://img.shields.io/badge/PIPL-a78bfa?style=flat-square&labelColor=050506)
-![SOX ITGC](https://img.shields.io/badge/SOX_ITGC-a78bfa?style=flat-square&labelColor=050506)
-![IELTS 7](https://img.shields.io/badge/English_IELTS_7-cfa6b6?style=flat-square&labelColor=050506)
-
----
-
-## ▚ 经历一览 / Experience
-
-按时间倒序，仅列关键产出，完整信息见简历。
-
-- **ShopeePay**（新加坡）· Agent 产品助理 —— 在职
-- **大成律师事务所 Dentons**（杭州）· 数字化转型实习 —— 合规快讯生成器（Grok API 结构化抓取，月度耗时 8h→2h）；律所风格 PPT 生成 Skill（Codex + DeepSeek，20 页汇报一键生成）；累计开发部署工具/Skill/插件 50+；全国合伙人 AI 培训讲师
-- **中国电信**（北京）· 审计数据分析实习 —— 本地审计工具链（离线 OCR、SQL 风控逻辑结构化）
-- **字节跳动** · 商业化风控实习
-- **特斯拉** · GRC 实习 —— Python 替代人工核对、SOX 证据链
-- **安永 EY** · 审计实习
-
-**教育**：新加坡国立大学（NUS）工业与系统工程硕士，运筹与数据方向（2026.09–2027.05）· 南京大学商学院财务管理学士，GPA 3.79/4.00，人民奖学金 / NUS-CDE 奖学金
-
----
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=1518213712-eng&show_icons=true&bg_color=050506&title_color=a78bfa&text_color=faf7f0&icon_color=cfa6b6&hide_border=true" alt="Calvin's GitHub stats" />
-</div>
-
-<div align="center">
-  <img src="assets/divider.jpg" alt="" width="100%" />
-</div>
-
-<div align="center">
-  <sub>联系方式见简历 / 求职投递渠道 · Contact via resume / application channel</sub>
-  <br/>
-  <sub>此页面为求职展示用个人主页 · This profile is maintained for job search purposes</sub>
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/footer.svg">
+  <img src="assets/light/footer.svg" alt="联系方式见简历。路不必最短，但每一步都算过。" width="100%">
+</picture>
