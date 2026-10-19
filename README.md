@@ -20,7 +20,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/dark/h02.svg">
-  <img src="assets/light/h02.svg" alt="02 在造：与其一人对一窗，不如众人共一群。" width="100%">
+  <img src="assets/light/h02.svg" alt="02 在造：一张给 agent 的桌子，一张给朋友的牌桌。" width="100%">
 </picture>
 
 <a href="https://github.com/1518213712-eng/crewmind">
@@ -36,6 +36,24 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/dark/crewmind-foot.svg">
   <img src="assets/light/crewmind-foot.svg" alt="crew-mind.xyz" width="100%">
+</picture>
+</a>
+
+<a href="https://github.com/1518213712-eng/bounty-night">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/bounty.svg">
+  <img src="assets/light/bounty.svg" alt="悬赏之夜 Bounty Night：雨夜的灰港，人人都在追一条线索。独立开发的网页派对棋盘游戏。" width="100%">
+</picture>
+</a>
+
+<a href="https://github.com/1518213712-eng/bounty-night"><img src="assets/bounty-night/greyharbor.jpg" alt="悬赏之夜：雨夜灰港的棋盘全景" width="100%"></a>
+
+<img src="assets/bounty-night/cast.jpg" alt="悬赏之夜的十位角色" width="100%">
+
+<a href="https://github.com/1518213712-eng/bounty-night">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/bounty-foot.svg">
+  <img src="assets/light/bounty-foot.svg" alt="悬赏之夜源码" width="100%">
 </picture>
 </a>
 
